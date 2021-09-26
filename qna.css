@@ -1,0 +1,31 @@
+#qna{display: none;}
+
+.qBox{
+	background-color: #ffffff;
+	text-align: left;
+	font-size: 1.4em;
+	width: 80%; margin: auto; word-break: keep-all;
+}
+
+.answerList{
+	background-color: #f8f8f8;
+	border-radius: 20px;
+	display: block;
+	width: 80%; margin: auto;
+	border : 0px; word-break: keep-all;
+}
+
+.status{
+	height: 8px;
+	width: 80%;
+	margin: auto;
+	background-color: #f8f8f8;
+	border-radius: 20px; word-break: keep-all;
+}
+
+.statusBar{
+	height: 100%;
+	border-radius: 20px;
+	background-color: #DB0034; word-break: keep-all;
+
+}
