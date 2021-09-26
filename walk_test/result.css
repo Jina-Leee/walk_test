@@ -1,0 +1,46 @@
+#result{
+	display: none;
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.resultname{
+	font-size: 1.5em; word-break: keep-all;font-weight: 500;
+}
+
+.resultDesc{
+	font-size: 1em; word-break: keep-all;
+}
+
+.mywalk{font-size: 1.1em; word-break: keep-all;}
+
+#result{width: 70%;margin: auto;}
+
+.key_ring{cursor: pointer; color: #ffffff; background-color: #DB0034; 
+		border-color: #DB0034; line-height: 1.5; border-radius: 3rem; font-size: 1rem;
+		display: inline-block; text-align: center; vertical-align: middle; border: 1px; 
+		padding: 10px 40px;
+		box-shadow: 4px 5px 5px lightgray;word-break: keep-all;}
+
+.walk_donate{cursor: pointer; color: #000000; background-color: #ffffff; 
+		border-color: #ffffff; line-height: 1.5; border-radius: 3rem; font-size: 1rem;
+		display: inline-block; text-align: center; vertical-align: middle; border: 1px; 
+		padding: 10px 40px;
+		box-shadow: 4px 5px 5px lightgray;word-break: keep-all;}
+
+
+  	/* .btn{display: inline-block; text-align: center; vertical-align: middle;
+  	  border: 1px solid; padding: 10px 80px;}*/
+
+  	  /*box-shadow: none | x-position y-position blur spread color | inset | initial | inherit
+none : 그림자 효과를 없앱니다.
+x-position : 가로 위치입니다. 양수면 오른쪽에, 음수면 왼쪽에 그림자가 만들어집니다. (필수)
+y-position : 세로 위치입니다. 양수면 아래쪽에, 음수면 위쪽에 그림자가 만들어집니다. (필수)
+blur : 그림자를 흐릿하게 만듭니다. 값이 클 수록 더욱 흐려집니다.
+spread : 양수면 그림자를 확장하고, 음수면 축소합니다.
+color : 그림자 색을 정합니다.
+inset : 그림자를 요소의 안쪽에 만듭니다.
+initial : 기본값으로 설정합니다.
+inherit : 부모 요소의 속성값을 상속받습니다.*/

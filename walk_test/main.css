@@ -1,0 +1,13 @@
+#main{width: 80%;} 
+
+  	h1{font-size: 1.8rem;font-weight: 500;}
+  	h2{font-size: 0.9rem ;color: #707070;}
+  	.title-box{text-align: center;}
+  	.row{width: 50%;}
+  	 .start_button{cursor: pointer; color: #ffffff; background-color: #077b79; 
+  	 	border-color: #077b79; line-height: 1.5; border-radius: 3rem; font-size: 1rem;
+  		 box-shadow: 4px 5px 5px lightgray;word-break: keep-all;}
+  	 .start_button_hover{text-decoration: none; /*color: white; background-color: #077b79; 
+  	 	border-color: #077b79;*/}
+  	 .btn{display: inline-block; text-align: center; vertical-align: middle;
+  	  border: 1px solid; padding: 10px 60px; }

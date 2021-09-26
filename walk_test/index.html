@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jina LEE">
+  <meta name="keywords" content="걷기 애정도 테스트">
+  <meta name="description" content="걷기 애정도 테스트">
+
+  <meta property="or:url" content="https://esg-mywalktype.netlify.app"/>
+  <meta property="or:title" content="걷기 애정도 테스트">
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="share.png"/>
+  <meta property="og:description" content="나의 걸음 유형 알아보고 환경을 살리는 걸음기부 참여하기">
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+
+  <title>걷기 애정도 테스트</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./default.css">
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="./qna.css">
+  <link rel="stylesheet" href="./animation.css">
+  <link rel="stylesheet" href="./result.css">
+ 
+  <style type="text/css">
+  	/*body,h1,h2,button{margin: 0;}
+  	h1{margin-top: 20px;font-size: 2.8rem;}
+  	h2{margin-top:15px; color: #707070;}
+  	.hanaearth_logo{width: 20%; margin-top: 40px;}
+  	.character{margin-top: 90px;}
+  	.title-box{text-align: center;}
+  	.row{width: 50%;}
+  	 .start_button{cursor: pointer; color: #ffffff; background-color: #077b79; border-color: #077b79;font-size: 1.25rem; line-height: 1.5; border-radius: 3rem;}
+  	 .start_button_hover{text-decoration: none;}
+  	 .btn{display: inline-block; text-align: center; vertical-align;middle; border: 1px solid; padding: 10px 80px; margin-top: 90px;}*/
+
+
+  	/*하나 초록 #077b79*/
+  </style>
+</head>
+<body>
+	<div class="container mt-5 pb-5 px-3">
+		<!--첫 시작 화면-->
+			<section id="main" class="mx-auto">
+				<div class="title-box">
+						<div class="col-5 mx-auto pt-5">
+				  		<img src="logo.png" class="hanaearth_logo img-fluid">
+					  </div>
+				    <h1 class="mt-5">걷기 애정도 테스트</h1>
+				    <h2 class="mt-2">나의 걸음 유형과 걷기 애정도 알아보기</h2>
+				    <div class="col-6 mx-auto mt-5 pt-4 pb-5">
+				    	<img src="character_1.png" class="character img-fluid">
+				    </div>
+				    <button type="button" class="start_button start_button_hover btn mt-5" onclick="js:begin()">
+					걸음 유형 알아보기
+					</button>
+				</div>
+			</section>
+			<!--질문 화면-->
+			<section id="qna">
+				<div class="status mt-5">
+					<div class="statusBar">
+					</div>
+				</div>
+				<div class="qBox my-5 py-3">
+
+				</div>
+
+				<div class="answerBox">
+					
+				</div>
+			</section>
+			<section id="result">
+					<div class="mx-auto pt-5 mb-1">
+				  	<h2 class="mywalk">나의 걸음 유형은</h2>
+					 </div>
+				   <div class="resultname">
+				    	
+				   </div>
+				   <div id="resultImg" class="mt-3" style="width: 80%; margin: auto;">
+				   	
+				   </div>
+				   <div class="resultDesc my-5">
+				    	
+				   </div>
+				   <!-- <button type=key_ring class="key_ring">걸음 유형 키링받기</button> -->
+				   <a href="https://www.instagram.com/p/CQLH5bxhlut/"><button type="walk_donate" class="walk_donate my-3">걸음기부 알아보기</button></a>
+			</section>
+			<script src="./data2.js" charset="utf-8"></script>
+			<script type="text/javascript" charset="utf-8" src="./start2.js"></script>
+	</div>
+  <footer>
+    
+  </footer>
+</body>
+</html>
